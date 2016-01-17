@@ -6,14 +6,15 @@ cutters.
 This projects is still in it's infancy.
 
 ### Example
-
 ```
 var threadmill = require('./index.js');
 
 // Generate threadmilling for a 10-32, 1/4" depth, internal thread w/ 0.01 width of cut
 console.log(threadmill.generateInternalThreadHelix(0.19, 0.1517, 0.135, 0.031250, 0.25, 0.01, 0, 0, 0, 0.05, 6));
+```
 
-// output:
+#### Output from example
+```
 (Threadmill - dMaj: 0.19, dMin: 0.1517, pitch: 0.03125)
 G0 Z0.05
 G0 X0 Y0
