@@ -1,0 +1,14 @@
+{
+  "name": "threadmill.js",
+  "version": "1.0.0",
+  "description": "A module to generate helical GCode for threadmilling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Titus <wastingtape@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "2.6.0"
+  }
+}
